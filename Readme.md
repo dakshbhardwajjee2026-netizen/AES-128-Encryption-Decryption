@@ -13,10 +13,10 @@ The project basically has 5 layers:-
 # Command Line Guide:-
 The basic structure of the command that can be provided to this program is:- 
 
-**encrypt/decrypt aes file <input_file> <output_file> <32-char-hex-key>**
-**encrypt/decrypt aes string <text> - <32-char-hex-key>**
-**encrypt/decrypt vigenere file <input_file> <output_file> <key>**
-**encrypt/decrypt vigenere string <text> - <key>**
+**encrypt/decrypt aes file <input_file> <output_file> <32-char-hex-key>**<br>
+**encrypt/decrypt aes string <text> - <32-char-hex-key>**<br>
+**encrypt/decrypt vigenere file <input_file> <output_file> <key>**<br>
+**encrypt/decrypt vigenere string <text> - <key>**<br>
 
 The input and output file both are txt, first the aes logic layer gives the binary output but it is converted to the hex string through bit operations.
 
